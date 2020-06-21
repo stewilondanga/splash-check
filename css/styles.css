@@ -57,16 +57,17 @@ input:checked+label:before {
   text-align: center;
 }
 
-/*.inner {
-	height: 10vmin;
-	width: 10vmin;
-	top: 50%;
-	left: 5vw;
-	position: absolute;
-	transform: translateY(-50%);
-	z-index: -1;
+.inner {
+  height: 10vmin;
+  width: 10vmin;
+  top: 50%;
+  left: 5vw;
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: -1;
 }
-span {
+
+/*span {
 	opacity:0;
 	width: 25%;
 	height: 25%;
