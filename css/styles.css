@@ -75,14 +75,14 @@ span {
   border-radius: 50%;
 }
 
-/*span:nth-child(1) {
-	left:10vmin;
-	top:50%;
-	background:green;
-	transform:translatey(-50%);
+span:nth-child(1) {
+  left: 10vmin;
+  top: 50%;
+  background: green;
+  transform: translatey(-50%);
 }
 
-span:nth-child(2) {
+/*span:nth-child(2) {
 	top:10vmin;
 	left:50%;
 	background:red;
