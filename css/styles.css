@@ -67,15 +67,15 @@ input:checked+label:before {
   z-index: -1;
 }
 
-/*span {
-	opacity:0;
-	width: 25%;
-	height: 25%;
-	position: absolute;
-	border-radius: 50%;
+span {
+  opacity: 0;
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  border-radius: 50%;
 }
 
-span:nth-child(1) {
+/*span:nth-child(1) {
 	left:10vmin;
 	top:50%;
 	background:green;
