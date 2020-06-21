@@ -26,11 +26,11 @@
   font: 10vmin/1em sans-serif;
 }
 
-/*input {
-	display:none;
+input {
+  display: none;
 }
 
-label {
+/*label {
 	cursor: pointer;
 	position: absolute;
 	display: inline-block;
