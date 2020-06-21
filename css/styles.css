@@ -30,16 +30,16 @@ input {
   display: none;
 }
 
-/*label {
-	cursor: pointer;
-	position: absolute;
-	display: inline-block;
-	top:50%;
-	left: 20vw;
-	transform: translateY(-50%);
+label {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 20vw;
+  transform: translateY(-50%);
 }
 
-label:before {
+/*label:before {
 	border: 1px solid #333;
 	content: "\00a0";
 	display: inline-block;
