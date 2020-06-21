@@ -116,8 +116,8 @@ input:checked~div span:nth-child(3) {
   animation: s3 0.5s ease-in;
 }
 
-/*input:checked ~ div span:nth-child(4) {
-	animation: s4 0.5s ease-in;
+input:checked~div span:nth-child(4) {
+  animation: s4 0.5s ease-in;
 }
 
 /* keyframes */
