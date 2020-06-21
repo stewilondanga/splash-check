@@ -50,14 +50,14 @@ label:before {
   position: absolute;
 }
 
-/*input:checked + label:before {
-	border: none;
-	color: #333;
-	content: "\2713";
-	text-align: center;
+input:checked+label:before {
+  border: none;
+  color: #333;
+  content: "\2713";
+  text-align: center;
 }
 
-.inner {
+/*.inner {
 	height: 10vmin;
 	width: 10vmin;
 	top: 50%;
