@@ -121,23 +121,24 @@ input:checked~div span:nth-child(4) {
 }
 
 /* keyframes */
-/*
-@keyframes s1{
-	0%{
-		opacity:0;
-		left:10vmin;
-	}
-	50%{
-		opacity:1;
-		left:12.5vmin;
-	}
-	100%{
-		opacity:0;
-		left:15vmin;
-	}
+@keyframes s1 {
+  0% {
+    opacity: 0;
+    left: 10vmin;
+  }
 
+  50% {
+    opacity: 1;
+    left: 12.5vmin;
+  }
+
+  100% {
+    opacity: 0;
+    left: 15vmin;
+  }
 }
-@keyframes s2{
+
+/*@keyframes s2{
 	0%{
 		opacity:0;
 		top: 10vmin;
