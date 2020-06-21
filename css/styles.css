@@ -155,22 +155,24 @@ input:checked~div span:nth-child(4) {
   }
 }
 
-/*@keyframes s3{
-	0%{
-		opacity:0;
-		left: -2.5vmin;
-	}
-	50%{
-		opacity:1;
-		left: -5vmin;
-	}
-	100%{
-		opacity:0;
-		left: -7.5vmin;
-	}
+@keyframes s3 {
+  0% {
+    opacity: 0;
+    left: -2.5vmin;
+  }
 
+  50% {
+    opacity: 1;
+    left: -5vmin;
+  }
+
+  100% {
+    opacity: 0;
+    left: -7.5vmin;
+  }
 }
-@keyframes s4{
+
+/*@keyframes s4{
 	0%{
 		opacity:0;
 		top: -2.5vmin;
