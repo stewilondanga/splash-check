@@ -82,14 +82,14 @@ span:nth-child(1) {
   transform: translatey(-50%);
 }
 
-/*span:nth-child(2) {
-	top:10vmin;
-	left:50%;
-	background:red;
-	transform:translatex(-50%);
+span:nth-child(2) {
+  top: 10vmin;
+  left: 50%;
+  background: red;
+  transform: translatex(-50%);
 }
 
-span:nth-child(3) {
+/*span:nth-child(3) {
 	left:-2.5vmin;
 	top:50%;
 	background:blue;
