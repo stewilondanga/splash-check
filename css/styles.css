@@ -39,18 +39,18 @@ label {
   transform: translateY(-50%);
 }
 
-/*label:before {
-	border: 1px solid #333;
-	content: "\00a0";
-	display: inline-block;
-	height: 10vmin;
-	width: 10vmin;
-	left: -15vw;
-	border-radius: 50%;
-	position: absolute;
+label:before {
+  border: 1px solid #333;
+  content: "\00a0";
+  display: inline-block;
+  height: 10vmin;
+  width: 10vmin;
+  left: -15vw;
+  border-radius: 50%;
+  position: absolute;
 }
 
-input:checked + label:before {
+/*input:checked + label:before {
 	border: none;
 	color: #333;
 	content: "\2713";
