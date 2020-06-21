@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,172 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.outer {
+	padding:12.5vmin 0;
+	position: relative;
+	text-align: center;
+	font: 10vmin/1em sans-serif;
+}
+input {
+	display:none;
+}
+
+label {
+	cursor: pointer;
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left: 20vw;
+	transform: translateY(-50%);
+}
+
+label:before {
+	border: 1px solid #333;
+	content: "\00a0";
+	display: inline-block;
+	height: 10vmin;
+	width: 10vmin;
+	left: -15vw;
+	border-radius: 50%;
+	position: absolute;
+}
+
+input:checked + label:before {
+	border: none;
+	color: #333;
+	content: "\2713";
+	text-align: center;
+}
+
+.inner {
+	height: 10vmin;
+	width: 10vmin;
+	top: 50%;
+	left: 5vw;
+	position: absolute;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+span {
+	opacity:0;
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	border-radius: 50%;
+}
+
+span:nth-child(1) {
+	left:10vmin;
+	top:50%;
+	background:green;
+	transform:translatey(-50%);
+}
+
+span:nth-child(2) {
+	top:10vmin;
+	left:50%;
+	background:red;
+	transform:translatex(-50%);
+}
+
+span:nth-child(3) {
+	left:-2.5vmin;
+	top:50%;
+	background:blue;
+	transform:translatey(-50%);
+}
+
+span:nth-child(4) {
+	left: 50%;
+	top:-2.5vmin;
+	background:yellow;
+	transform:translatex(-50%);
+}
+
+
+/* styles for  span when checkbox is checked */
+/*
+input:checked ~ div span:nth-child(1) {
+	animation: s1 0.5s ease-in;
+}
+input:checked ~ div span:nth-child(2) {
+	animation: s2 0.5s ease-in;
+}
+input:checked ~ div span:nth-child(3) {
+	animation: s3 0.5s ease-in;
+}
+input:checked ~ div span:nth-child(4) {
+	animation: s4 0.5s ease-in;
+}
+
+/* keyframes */
+/*
+@keyframes s1{
+	0%{
+		opacity:0;
+		left:10vmin;
+	}
+	50%{
+		opacity:1;
+		left:12.5vmin;
+	}
+	100%{
+		opacity:0;
+		left:15vmin;
+	}
+
+}
+@keyframes s2{
+	0%{
+		opacity:0;
+		top: 10vmin;
+	}
+	50%{
+		opacity:1;
+		top: 12.5vmin;
+	}
+	100%{
+		opacity:0;
+		top: 15vmin;
+	}
+
+}
+@keyframes s3{
+	0%{
+		opacity:0;
+		left: -2.5vmin;
+	}
+	50%{
+		opacity:1;
+		left: -5vmin;
+	}
+	100%{
+		opacity:0;
+		left: -7.5vmin;
+	}
+
+}
+@keyframes s4{
+	0%{
+		opacity:0;
+		top: -2.5vmin;
+	}
+	50%{
+		opacity:1;
+		top: -5vmin;
+	}
+	100%{
+		opacity:0;
+		top: -7.5vmin;
+	}
+
 }
 
 .containers {
