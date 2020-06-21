@@ -19,14 +19,14 @@
   height: 1.5em;
 }
 
-/*
 .outer {
-	padding:12.5vmin 0;
-	position: relative;
-	text-align: center;
-	font: 10vmin/1em sans-serif;
+  padding: 12.5vmin 0;
+  position: relative;
+  text-align: center;
+  font: 10vmin/1em sans-serif;
 }
-input {
+
+/*input {
 	display:none;
 }
 
